@@ -1,0 +1,12 @@
+
+1. Starting from this situation (game state):
+	WEEHPEPPEXEW
+write down the sequence of states until the player victory. Then change the code of project OxidizedPot_v0 so that it writes all the steps you found.
+
+2. Starting from this situation (game state):
+	WPXEEPPHEPW
+write down a sequence of states in which the player breaks as many pots as possible before finally reaching the X and winning. Change the code of project OxidizedPot_v0 so that it writes all the steps you found.
+
+3. Perhaps the idea I had to change the notation in project OxidizedPot_v0_1 was not that good after all. Find another notation to represent the state of the game, one that is readable and better looking for you, and change the code to in project OxidizedPot_v0_1 to print the sequence of states according to your notation.
+
+4. Change the code in project OxidizedPot_v0 so that the program still prints the same sequence of strings, but using only 1 variable.
