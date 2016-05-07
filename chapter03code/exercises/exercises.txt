@@ -1,0 +1,20 @@
+
+1. Create a copy of project OxidizedPot_v1 (call it perhaps OxidizedPot_v1_2) so that the game prints the level in this way:
+
+	"WE ]-[ EEPEX"
+
+both before and after player's input is processed. The "H" representing the hero has been replaced by the string " ]-[ ". A possible execution of the program could be that the situation is printed on screen, then the player moves left and the new situation (aka game state) is printed again, like this:
+
+	WE ]-[ EEPEX
+-> player input: "a"
+	W ]-[ EEEPEX
+
+Suggestion: you might want to use a couple of variables to hold portions of the original map string, to help you print the new version of the game situation (check out project OxidizedPot_v1_1).
+
+1.b. Practice working with string by printing the first 3 characters of the map string, followed in a new line by the last 3 characters. Add the code to achieve that at the end of the code in your OxidizedPot_v1_2 project.  The result should be something like (assuming the player moved left):
+
+	WEH
+	PEX
+
+
+2. Make a copy of project OxidizedPot_v1, call it OxidizedPot_v1_3. In the very beginning of the main block, declare a int variable called score and set its value to 0. Now add an IF command in such a way that if the player types "+", the score changes to 100. The value of the variable score should be printed on screen each time the map is printed, to help the player keeping track of his/her score. It should be possible to run the game, type  +  and get a score of 100 without moving the "H".
