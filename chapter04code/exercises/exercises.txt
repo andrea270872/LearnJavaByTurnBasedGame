@@ -1,0 +1,18 @@
+
+1. Let’s test the game. Make a copy of the OxidizedPot_v3 project and change the map of the level. Try the following maps, one by one, and for each see if the rules work correctly, if you can break all pots, and if there is a way to win or not:
+• WWXPPPPHWW
+• WEXEEPEXPW
+• WXPWEEEHEW
+• WXPPEEEHEW
+Be careful: remember to change the heroPos variable too, each time you alter the map.
+
+2. Create a new version of the game, where the player gains 100 points each time a pot is smashed. And if the player wins (which means reaching the X) with more than 300 points, a special message should be displayed: “good loot!”. To achieve this, make a copy of the OxidizedPot_v3 project; in the new project add a variable score of type int (so it can only contain whole numbers), that is initialized the value 0 in the beginning of the program, and gets incremented of 100 each time the player smashes a pot. Add an IF at the end of the program, after the WHILE loop, to print the special message in case the score is high enough. To test your new game change the map to be: WEPPPEPHEEXW, and set the heroPos to 7.	
+
+3. Modify the testWHILE project (in alternative_ways folder) so that the WHILE look would exit not only if the player types “q” but also if the player types “no more”. Then add a few IF commands in the WHILE loop: 
+• if the player types “paper” the program should ouput “scissors”, 
+• if the player types “rock” the program should ouput “paper”, 
+• and if the player types “scissors” the program should ouput “rock”
+Test your game by playing a few games. Can you be sure that you covered every possible behaviour of your game with your tests?
+
+4. Start from the code in project OxidizedPot_v3. I would like to count how many turns a game lasts. Add a variable steps, of type int (aka an integer number) that is initialized to 0 before entering the WHILE that runs the game. Increment the variable steps of 1 each time the program goes through the WHILE loop and output its value together with the map at each turn. 
+How many turns it takes to finish the level in OxidizedPot_v3? 
